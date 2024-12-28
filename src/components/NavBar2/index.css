@@ -1,0 +1,72 @@
+.logo-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+    padding: 30px 30px;
+}
+
+.logo{
+    width: 118px;
+    height: 26px;
+}
+.save-btn{
+    background-color: #0071e3;
+    padding:7px 5px;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 70px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+
+.save-btn:hover{
+    background-color: #0071e3af;
+    transition: ease-in-out 0.4s;
+}
+
+.selection{
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 300px;
+}
+
+.popup-content{
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+    top: -150px;
+    left: 20px;
+}
+
+.trigger-button {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    letter-spacing: 0.5px;
+}
+
+.item{
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #bfbfdc;
+    margin-bottom: 5px;
+    text-align: center;
+    transition: ease-in-out 0.3s;
+}
+
+.item:hover{
+    color: #bfbfdc;
+    transition: ease-in-out 0.3s;
+}

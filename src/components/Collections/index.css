@@ -1,0 +1,114 @@
+.new-box{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.collection-container{
+    height: 150vh;
+}
+
+.watch-alt{
+    width: 58vh;
+    height: auto;
+    
+}
+
+.watch-alt1{
+    width: 58vh;
+    height: auto;
+   
+}
+
+.watch-details{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5;
+        text-align: center;
+}
+
+.toggleme{
+    color: #06c;
+    margin-bottom: 12px;
+    text-decoration: underline;
+    vertical-align: top;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.item1{
+    color: #6e6e73;
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.item2{
+    color: #1d1d1f;
+    display: -webkit-box;
+    font-weight: 600;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.item3{
+    color: #1d1d1f;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.menu-item{
+    background: #e8e8ed;
+    color: #1d1d1f;
+   border: none;
+   cursor: pointer;
+   display: inline-block;
+   margin: 0 6px;
+   transition: ease-in-out 0.4s;
+   padding: 7px 25px;
+   border-radius: 30px;
+}
+
+.menu-item:hover{
+    background: #c7c7cf;
+    transition: ease-in-out 0.4s;
+}
+
+h3{
+    background-color: #06c;
+}
+
+.slick-slider{
+    width: 90%;
+    align-self: center;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #6e6e73;
+}
+
+.mgds{   
+     width: 50vh;
+    height: 50vh;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
